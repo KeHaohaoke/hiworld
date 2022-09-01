@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: hiworld
+spec:
+  selector:
+    app: hiworld
+  ports:
+    - port: 80
+      targetPort: 8080
